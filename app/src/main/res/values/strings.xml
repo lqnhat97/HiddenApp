@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Manage Your Child</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="map_api_key">AIzaSyCRWyVmi90u4Y3KdmF-neyMXpJRm72EjW8</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

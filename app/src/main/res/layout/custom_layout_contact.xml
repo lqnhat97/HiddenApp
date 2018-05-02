@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/imgmenuview"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_view" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/imgmenucopy"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_set_as" />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvnamecontact"
+        android:layout_toRightOf="@+id/imgmenuview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Nguyen Van A"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_toRightOf="@+id/imgmenuview"
+        android:layout_marginTop="40dp"
+        android:id="@+id/tvsdtcontac"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="01674229190"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

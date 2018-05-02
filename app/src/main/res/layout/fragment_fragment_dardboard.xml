@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fldb"
+    tools:context="com.ntt.tainguyen197.myapplication.FragmentDardboard">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/btnContact"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="11dp"
+                android:text="Photos" />
+
+            <Button
+                android:id="@+id/btnContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/btnPhoto"
+                android:layout_marginEnd="12dp"
+                android:text="Contact" />
+
+            <TextView
+                android:id="@+id/tvnamedevice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/btnPhoto"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="14dp"
+                android:text="Tên thiết bị"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/tvgps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvnamedevice"
+                android:layout_alignTop="@+id/btnContact"
+                android:text="GPS"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/tvbattery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btnContact"
+                android:layout_alignStart="@+id/tvgps"
+                android:text="Pin"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/tvwifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvbattery"
+                android:layout_below="@+id/tvbattery"
+                android:layout_marginTop="16dp"
+                android:text="Wifi"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/tvVitri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvwifi"
+                android:layout_below="@+id/tvwifi"
+                android:layout_marginTop="29dp"
+                android:text="Vị trí:"
+                android:textColor="@android:color/background_dark" />
+            <fragment
+                android:id="@+id/fragmentmap1"
+                class="com.google.android.gms.maps.MapFragment"
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/tvVitri"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="17dp" />
+
+        </RelativeLayout>
+
+</FrameLayout>

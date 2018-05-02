@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menudb" android:title="Trang cá nhân"></item>
+    <item android:id="@+id/menuct" android:title="Danh Bạ"></item>
+    <item android:id="@+id/menupt" android:title="Hình Ảnh"></item>
+    <item android:id="@+id/menuvideo" android:title="Video"/>
+</menu>
